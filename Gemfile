@@ -45,9 +45,11 @@ group :development, :test do
   gem 'spring'
 
 
-  gem 'sqlite3'
-
   gem 'rspec-rails'
+
+  gem 'guard'
+
+  gem 'guard-rspec'
 
 
 end
@@ -62,5 +64,9 @@ end
 
 group :test do
   gem 'selenium-webdriver'
+
   gem 'capybara'
+
+  gem 'growl'
+
 end
