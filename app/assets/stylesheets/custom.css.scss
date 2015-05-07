@@ -1,0 +1,133 @@
+@import "bootstrap";
+
+
+$grayMediumLight: #eaeae2;
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+
+  　　h1 {
+  margin-bottom: 10px;
+}
+
+  text-align: center;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+        &:hover {
+    color: red;
+    text-decoration: none;
+  }
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $grayMediumLight;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+
+/* ------------------------------------- /
+/    Footer
+/* ------------------------------------- */
+#footer{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #7E7E7E;
+}
+
+/*  logo
+/*--------------------------------- */
+#footer .logo{
+    margin-top: 100;
+}
+
+.logo p { /* 丸とフォントのスタイリング */
+    margin: 10;
+    padding-top: 34px;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 26px;
+    color: #7E7E7E;
+    font-weight: bold;
+    background-color: #fff;
+    
+
+}
+
+/*  nav
+/*--------------------------------- */
+#footer .navbar-nav>li {
+    border-right: 1px solid #000;
+}
+#footer .navbar-nav>li.first{
+    border-left: 1px solid #000;
+}
+
+#footer .navbar-nav li a{
+    color: #fff;
+}
+
+/*  sns-icon
+/*--------------------------------- */
+.sns-icon{
+    margin-top: 30px;
+}
+
+.sns-icon li{
+    padding-left: 20px;
+}
+.sns-icon li:hover{
+    color: #fff;
+}
+
+/*  copy
+/*--------------------------------- */
+.copy{
+    margin-top: 20px;
+}
+
+.copy span{
+    color: #333;
+}
