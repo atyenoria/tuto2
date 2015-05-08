@@ -39,3 +39,6 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end
+
+#adminユーザー作成
+#User.new(name: "Example User",email: "sample@gmail.com",password: "foobar",password_confirmation: "foobar",admin: "true")
