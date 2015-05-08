@@ -19,7 +19,7 @@ module.exports = {
             "port": 8080
         }
     },
-    "files": ["app/assets/stylesheets/*.css.*","app/views/**/*.html.*","app/assets/javascripts/**/*.js.*"],
+    "files": ["app/**"],
     "watchOptions": {},
     "server": false,
     "proxy": "localhost:3000",
